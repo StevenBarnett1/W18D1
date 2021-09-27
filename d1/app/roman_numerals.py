@@ -1,2 +1,3 @@
 def parse(arg):
-    return 1
+    if(arg == "I"):return 1
+    elif(arg == "II"):return 2
