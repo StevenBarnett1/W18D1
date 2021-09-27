@@ -1,9 +1,3 @@
 def parse(arg):
-    if(arg == "I"):return 1
-    elif(arg == "II"):return 2
-    elif(arg == "III"):return 3
-    elif(arg == "IV"):return 4
-    elif(arg == "V"):return 5
-    elif(arg == "VI"):return 6
-    elif(arg == "VII"):return 7
-    elif(arg == "VIII"):return 8
+    dictionary = {"I":1,"II":2,"III":3,"IV":4,"V":5,"VI":6,"VII":7,"VIII":8,"IX":9,"X":10}
+    return dictionary[arg]
