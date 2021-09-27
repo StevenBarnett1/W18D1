@@ -3,9 +3,7 @@ from app.roman_numerals import parse
 
 
 
-class TestRomanNumerals:
-    def __init__(self):
-        pass
+class TestRomanNumerals():
     def test_i(self):
         value = parse("I")
-        self.assertEqual(value, 1)
+        assert value == 1
